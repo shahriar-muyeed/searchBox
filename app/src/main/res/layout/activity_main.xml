@@ -23,8 +23,8 @@
         android:layout_below="@+id/editText"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
+        android:background="#5F5D5D"
         android:fadingEdge="vertical"
         android:fadingEdgeLength="10dp"
-        android:background="@android:color/darker_gray"
         android:text="Show" />
 </RelativeLayout>
