@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        bt.findViewById(R.id.bt_add);
-        et.findViewById(R.id.editText);
+        bt=(Button)findViewById(R.id.bt_add);
+        et=(EditText) findViewById(R.id.editText);
 
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 i.putExtra("Value",st);
                 startActivity(i);
                 finish();
+
             }
         });
     }
